@@ -27,7 +27,7 @@ The following tables show the query variables for SharePoint Server, and example
 |**Query variable**|**Definition**|
 |:-----|:-----|
 |{Site} or {Site.URL}  <br/> |URL of the site from where the query was issued. For example, this value can be used to query content of the managed property Path.  <br/> |
-|{Site.ID}  <br/> |GUID of site from where the query was issued. This value corresponds to the value of the managed property SiteID.  <br/> |
+|{Site.ID}  <br/> |GUID of site from where the query was issued. This value corresponds to the value of the managed property WebID.  <br/> |
 |{Site.LCID}  <br/> |Numeric value of the locale as specified by the Regional Settings in the Site Settings on the Site from where the query was issued.  <br/> |
 |{Site.Locale}  <br/> |Language of the Site from where the query was issued in ll-cc format — for example, en-us.  <br/> |
 |{Site.\<property\>}  <br/> |Any property from the property bag of the site (SPWeb) from where the query was issued, including custom properties.  <br/> |
